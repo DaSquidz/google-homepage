@@ -15,7 +15,7 @@ a:hover{
     text-decoration: underline;
 }
 
-button:hover{
+.search-button:hover{
     animation-name: outline;
     animation-duration: 100ms;
     animation-fill-mode: forwards;
@@ -71,13 +71,20 @@ button:hover{
     margin-top: 27vh;
     text-align: center;
 }
-
 .search-bar {
     width: 550px;
     border: 1px solid #d4d4d4;
     padding: 12px;
     border-radius: 50px;
     outline: none;
+    text-indent: 30px;
+    background-color: white;
+}
+
+.lens {
+    position: relative;
+    top: 1vh;
+    left: 40px;
 }
 
 .search-bar:hover {
@@ -85,6 +92,7 @@ button:hover{
     animation-duration: 100ms;
     animation-fill-mode: forwards;
 }
+
 
 button {
     font-size: 13.5px;
@@ -94,6 +102,7 @@ button {
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
+    outline: none;
 }
 
 /* footer stuff */
