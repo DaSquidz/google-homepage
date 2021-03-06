@@ -7,14 +7,22 @@
     height: auto;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 button:hover{
     animation-name: outline;
-    animation-duration: 1ms;
+    animation-duration: 100ms;
     animation-fill-mode: forwards;
 }
 
 
 @keyframes outline {
+    0% {
+        border: 1px solid #ffffff;
+    }
+
     100% {
         border: 1px solid #c4c4c4;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -62,7 +70,7 @@ button:hover{
 
 .search-bar:hover {
     animation-name: outline;
-    animation-duration: 1ms;
+    animation-duration: 100ms;
     animation-fill-mode: forwards;
 }
 
