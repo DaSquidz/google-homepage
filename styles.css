@@ -7,6 +7,10 @@
     height: auto;
 }
 
+.text-img {
+    height: 1.5em;
+}
+
 a:hover{
     text-decoration: underline;
 }
@@ -51,6 +55,15 @@ button:hover{
     color: #333333;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#sign-in-button {
+    position: relative;
+    background-color:rgb(22, 83, 252);
+    color: white;
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+    top: -0.5em;
 }
 
 /* Main content stuff */
